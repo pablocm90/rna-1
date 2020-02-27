@@ -35,6 +35,26 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("ComplexColor")}
         title="Go to Complex Color Demo"
       />
+      <Button
+        style={ styles.buttonHome }
+        onPress={() => navigation.navigate("Text")}
+        title="Go to Text Demo"
+      />
+      <Button
+        style={ styles.buttonHome }
+        onPress={() => navigation.navigate("Box")}
+        title="Go to Box Demo"
+      />
+      <Button
+        style={ styles.buttonHome }
+        onPress={() => navigation.navigate("FlexBox")}
+        title="Go to FlexBox Demo"
+      />
+      <Button
+        style={ styles.buttonHome }
+        onPress={() => navigation.navigate("PositionExercice")}
+        title="Go to Position Exercice Demo"
+      />
     </View>
   )
 };
