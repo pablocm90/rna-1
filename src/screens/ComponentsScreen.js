@@ -14,7 +14,7 @@ const ComponentsScreen = () => {
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 45
+    fontSize: 35
   },
   subTitle: {
     fontSize: 20
